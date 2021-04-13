@@ -4,10 +4,13 @@ import {
   Route
 } from "react-router-dom";
 
-import Home from "../src/components/pages/Home";
+import './App.css'
+
+import Music from "../src/components/pages/Music";
+import Podcast from "../src/components/pages/Podcast";
+import Store from "../src/components/pages/Store";
+import Video from "../src/components/pages/Video";
 import About from "../src/components/pages/About";
-import Users from "../src/components/pages/Users";
-import Stocks from "../src/components/pages/Stocks";
 import Nav from "../src/components/Nav/index"
 
 export default function App() {
@@ -19,17 +22,20 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/music">
+            <Music />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/podcast">
+            <Podcast />
           </Route>
-          <Route path="/stocks">
-            <Stocks />
+          <Route path="/store">
+            <Store />
+          </Route>
+          <Route path="/video">
+            <Video />
           </Route>
           <Route path="/">
-            <Home />
+            <About />
           </Route>
         </Switch>
       </div>
