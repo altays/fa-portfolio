@@ -11,12 +11,13 @@ import Podcast from "../src/components/pages/Podcast";
 import Store from "../src/components/pages/Store";
 import Video from "../src/components/pages/Video";
 import About from "../src/components/pages/About";
-import Nav from "../src/components/Nav/index"
+
+import Nav from "../src/components/Nav/index";
+import Footer from "../src/components/Footer/index";
 
 export default function App() {
   return (
     <Router>
-      <div>
         <Nav />
 
         {/* A <Switch> looks through its children <Route>s and
@@ -38,7 +39,8 @@ export default function App() {
             <About />
           </Route>
         </Switch>
-      </div>
+  
+        <Footer />
     </Router>
   );
 }

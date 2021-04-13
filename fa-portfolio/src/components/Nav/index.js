@@ -6,7 +6,7 @@ function Nav() {
     <nav className="navbar" role="navigation" aria-label="main-navigation">
     
         <div className="navbar-brand">
-            <a className="navbar-item" href="/">
+            <a className="navbar-item" href="/" id="top-of-page">
                 <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt=""/>
             </a>
 

@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+footer div a span {
+  padding: 0 1rem; }
+
+.fa-lg {
+  font-size: 2em; }
+
 /* Bulma Base */
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
@@ -7003,7 +7009,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .footer {
   background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
+  padding: 2rem 1.5rem 2rem; }
 
 /* Bulma Utilities */
 .pagination-previous,
