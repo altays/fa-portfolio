@@ -6,17 +6,21 @@ function Nav() {
     <nav>
         <ul>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">About</Link>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <Link to="/music">Music</Link>
             </li>
             <li>
-                <Link to="/users">Users</Link>
+                <Link to="/podcast">Podcast</Link>
             </li>
             <li>
-                <Link to="/stocks">Stocks</Link>
+                <Link to="/video">Video</Link>
             </li>
+            <li>
+                <Link to="/store">Store</Link>
+            </li>
+ 
         </ul>
     </nav>
     )
