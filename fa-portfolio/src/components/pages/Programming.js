@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Programming() {
+function Video() {
     return(
         <section class="hero hero is-link is-large">
             <div class="hero-body">
@@ -12,4 +12,4 @@ function Programming() {
     );
 }
 
-export default Programming;
+export default Video;
