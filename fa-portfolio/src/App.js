@@ -11,9 +11,11 @@ import Podcast from "../src/components/pages/Podcast";
 import Store from "../src/components/pages/Store";
 import Video from "../src/components/pages/Video";
 import About from "../src/components/pages/About";
+import Programming from "../src/components/pages/Video";
 
 import Nav from "../src/components/Nav/index";
 import Footer from "../src/components/Footer/index";
+
 
 export default function App() {
   return (
@@ -34,6 +36,9 @@ export default function App() {
           </Route>
           <Route path="/video">
             <Video />
+          </Route>
+          <Route path="/programming">
+            <Programming />
           </Route>
           <Route path="/">
             <About />
