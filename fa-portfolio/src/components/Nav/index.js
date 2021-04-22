@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './script'
 
 function Nav() {
 
@@ -19,7 +20,7 @@ function Nav() {
     
         <div id="navbarBasicExample" className="navbar-menu">
             {/* need to make the text bigger, spread the entries out more */}
-            <div className="navbar-end">
+            <div className="navbar-end is-size-5">
                 <a className="navbar-item" href="/">
                     <Link to="/">About</Link>
                 </a>
@@ -36,9 +37,13 @@ function Nav() {
                     <Link to="/video">Video</Link>
                 </a>
 
-                <a className="navbar-item" href="store">
-                    <Link to="/store">Store</Link>
+                <a className="navbar-item" href="/programming">
+                    <Link to="/programming">Programming</Link>
                 </a>
+
+                {/* <a className="navbar-item" href="store">
+                    <Link to="/store">Store</Link>
+                </a> */}
 
                 <a className="navbar-item" href="mailto:frenchalexander@gmail.com">
                     <span className="email-icon">
