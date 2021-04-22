@@ -3,7 +3,7 @@ function Footer() {
     return (
 
         <footer class="footer">
-            <div class="content has-text-centered">
+            <div class="content has-text-centered is-size-6">
                 <a href="mailto:frenchalexander@gmail.com">
                     <span>
                         <i className="fas fa-envelope fa-lg"></i>
@@ -21,18 +21,23 @@ function Footer() {
                 </a>
                 <a href= "https://www.instagram.com/frenchalexandersomething/">
                     <span>
-                        <i class="fab fa-instagram fa-lg"></i>
+                        <i className="fab fa-instagram fa-lg"></i>
                     </span>
                 </a>
                 <a href= "https://www.twitch.tv/frenchalexander/">
                     <span>
-                        <i class="fab fa-twitch fa-lg"></i>
+                        <i className="fab fa-twitch fa-lg"></i>
+                    </span>
+                </a>
+                <a href= "https://frenchalexander.bandcamp.com/releases">
+                    <span>
+                        <i className="fab fa-bandcamp fa-lg"></i>
                     </span>
                 </a>
             </div>
-            <div class="content has-text-centered">
-                <p>
-                    <a href="#top-of-page">Return to top</a>
+            <div className="content has-text-centered ">
+                <p >
+                    <a className="return2top" href="#top-of-page">Return to top</a>
                 </p>
             </div>
         </footer>
