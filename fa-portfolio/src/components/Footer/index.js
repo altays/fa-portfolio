@@ -3,12 +3,12 @@ function Footer() {
     return (
 
         <footer class="footer">
-            <div class="content has-text-centered is-size-6">
-                <a href="mailto:frenchalexander@gmail.com">
+            <div class="">
+                {/* <a href="mailto:frenchalexander@gmail.com">
                     <span>
                         <i className="fas fa-envelope fa-lg"></i>
                     </span>
-                </a>
+                </a> */}
                 <a href="https://www.youtube.com/channel/UCKMdpQ2L60I-6koan9PV74w">
                     <span >
                         <i className="fab fa-youtube fa-lg"></i>
@@ -35,7 +35,7 @@ function Footer() {
                     </span>
                 </a>
             </div>
-            <div className="content has-text-centered ">
+            <div className="">
                 <p >
                     <a className="return2top" href="#top-of-page">Return to top</a>
                 </p>

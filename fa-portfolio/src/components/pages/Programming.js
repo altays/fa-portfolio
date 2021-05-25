@@ -1,15 +1,11 @@
 import React from 'react';
 
-function Video() {
+function Programming() {
     return(
-        <section class="hero hero is-link is-large">
-            <div class="hero-body">
-                <p class="title">
-                Fullheight hero with navbar for Video Page
-                </p>
-            </div>
-        </section>
+        <div>
+            
+        </div>
     );
 }
 
-export default Video;
+export default Programming;

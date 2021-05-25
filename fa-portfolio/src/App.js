@@ -11,7 +11,7 @@ import Podcast from "../src/components/pages/Podcast";
 import Store from "../src/components/pages/Store";
 import Video from "../src/components/pages/Video";
 import About from "../src/components/pages/About";
-import Programming from "../src/components/pages/Video";
+import Programming from "../src/components/pages/Programming";
 
 import Nav from "../src/components/Nav/index";
 import Footer from "../src/components/Footer/index";
