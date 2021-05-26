@@ -7,11 +7,11 @@ import pic3 from './images/alex@3x.jpg';
 function About() {
     return (
     
-        <div class="content" id="top-of-page">
-            <aside class="side" >
-                <figure class="picture">
-                    <div class="picture-shadow"></div>
-                    <img id="pictureImage" class="picture-image"
+        <div className="content" id="top-of-page">
+            <aside className="side" >
+                <figure className="picture">
+                    <div className="picture-shadow"></div>
+                    <img id="pictureImage" className="picture-image"
                     src={pic1}
                     srcSet={`${pic1} 1x,${pic2} 2x,${pic3} 3x`}
                     alt="Portrait of Alex Taylor"
@@ -20,12 +20,12 @@ function About() {
                 </figure>
             </aside>
 
-            <div class="about">
-                <h1 class="name">
+            <div className="about">
+                <h1 className="name">
                     Hi, I'm Alex Taylor
                 </h1>
 
-                <div class="description">
+                <div className="description">
                     <p>
                         I spend my time traveling the world,
                         helping startups and tech businesses

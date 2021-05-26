@@ -74,31 +74,12 @@ a {
   align-self:center;
 }
 
-.button {
-  background-color: #fff;
-  border-radius: 290486px;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  color: #9013fe;
-  display: inline-block;
-  font-size: 0.875rem;
-  line-height: 1;
-  padding: 1.25em 2em;
-  text-shadow: none;
-  transition-property: box-shadow, transform;
-  user-select: none;
-  vertical-align: top;
-  white-space: nowrap;
-  will-change: box-shadow, transform;
+a:active, i:active, .return:active {
+  transform: scale(0.98) translateY(-1px);
 }
 
-.button:active {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-  transform: scale(0.98) translateY(-2px);
-  }
-
-.button:hover {
-  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
-  transform: scale(1.02) translateY(-4px);
+a:hover, i:hover, .return:hover {
+  transform: scale(1.02) translateY(-2px);
 }
 
 .content {
@@ -140,7 +121,7 @@ a {
 .name {
   font-size: 2.25rem;
   line-height: 1.125;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .navbar {
@@ -202,7 +183,7 @@ a {
 }
 
 .wallpaper {
-  background-image:url("../components/pages/images/austria.jpg");
+  background-image:url("../components/pages/images/avi1.png");
   background-position: center;
   background-size: cover;
   opacity: 0.2;
@@ -232,21 +213,28 @@ a {
 
 /* base font size */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
+  html {
+   font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
   html {
    font-size: 16px;
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 2559px) {
+
+@media screen and (min-width: 1441px) and (max-width: 2559px) {
   html {
-   font-size: 24px;
+   font-size: 16px;
   }
 }
 
 @media screen and (min-width: 2560px)  {
   html {
-   font-size: 32px;
+   font-size: 24px;
   }
 }
 
@@ -260,18 +248,13 @@ a {
 
 /* navbar */
 
-  /* if navbar is on smaller, then hide nav-large and show nav-small */
-
-  /* if navbar is on larger, then hide nav-small and show nav-large */
-    /* burger and brand at top */
-    /* When burger is pressed, show a div (conver this into an animation) and change burger into an X*/
-    /* when x is pressed, hide the div (animation) and turn x into burger */
 
 @media screen and (min-width: 768px) {
   .nav-small {
     display:none;
   }
 }
+
 @media screen and (max-width: 767px) {
   .nav-large {
     display:none;

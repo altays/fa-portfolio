@@ -3,8 +3,8 @@ function Footer() {
     return (
 
         // consider converting social links into a component to reuse in profile and footer
-        <footer class="footer">
-            <div class="socials">
+        <footer className="footer">
+            <div className="socials">
  
                 <a href="https://www.youtube.com/channel/UCKMdpQ2L60I-6koan9PV74w" className="socials-item">
                     <span >

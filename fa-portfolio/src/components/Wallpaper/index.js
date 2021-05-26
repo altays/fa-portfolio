@@ -2,7 +2,7 @@ function Wallpaper() {
 
     return (
 
-        <div class="wallpaper"></div>
+        <div className="wallpaper"></div>
 
     )
 }
