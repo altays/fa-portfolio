@@ -1,3 +1,5 @@
+alert("Hello!")
+
 // function that takes two params
 function loadImage(id, targetId) {
     
@@ -37,3 +39,12 @@ document.addEventListener(`DOMContentLoaded`,function() {
     loadImage('pictureImage','picture')
     // loadImage('picture-image',`pictureImage`)
 })
+
+
+function modifyText() {
+    console.log("worked")
+}
+  
+// Add event listener to table
+var el = document.getElementByID("toggle");
+el.addEventListener("click", modifyText);

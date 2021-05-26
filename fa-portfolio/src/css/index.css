@@ -23,12 +23,13 @@ a {
 
 /* 2. Shared */
 
+
+
 .button,
 .social a {
   transform-origin: center;
   transition-duration: 100ms;
 }
-
 
 .job,
 .button {
@@ -68,6 +69,11 @@ a {
   flex-direction: column;
 }
 
+.brand {
+  font-size:2rem;
+  align-self:center;
+}
+
 .button {
   background-color: #fff;
   border-radius: 290486px;
@@ -95,12 +101,6 @@ a {
   transform: scale(1.02) translateY(-4px);
 }
 
-.contact {
-  /* display: inline-block; */
-  margin-top: 1.5rem;
-  vertical-align: top;
-}
-
 .content {
   display:flex;
   flex-direction: column;
@@ -118,6 +118,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items:center;
+  margin-bottom:1.5rem;
 }
 
 .hr {
@@ -143,14 +144,26 @@ a {
 }
 
 .navbar {
-  display:grid;
-  grid-template-columns: repeat(5,1fr) ;
-  padding: 1.5rem 4rem;
+  margin-top:3rem;
+  padding: 0rem 4rem;
+}
+
+.nav-small-brand {
+  display: flex;
+  flex-flow:column;
 }
 
 .navbar-item {
   justify-self: center;
-  font-size:1.5rem;
+  align-self:center;
+  /* put this into a media query - larger on larger displays; js/css magic for creating a different type of nav menu */
+  font-size:1.6rem; 
+}
+
+.navlist-large {
+  display:grid;
+  grid-template-columns: repeat(5,1fr) ;
+  grid-gap:3rem;
 }
 
 .picture {
@@ -173,6 +186,7 @@ a {
 
 .return {
   font-size: 1.5rem;
+  padding: 1rem 0;
 }
 
 .side {
@@ -207,7 +221,7 @@ a {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
-.wrapper::-webkit-scrollbar { /* WebKit */
+.wrapper::-webkit-scrollbar {/* WebKit */
   width: 0;
   height: 0;
 }
@@ -216,10 +230,60 @@ a {
 
 /* responsiveness */
 
-  /* navbar */
+/* base font size */
 
+@media screen and (max-width: 1024px) {
+  html {
+   font-size: 16px;
+  }
+}
 
+@media screen and (min-width: 1025px) and (max-width: 2559px) {
+  html {
+   font-size: 24px;
+  }
+}
 
-  /* footer */
+@media screen and (min-width: 2560px)  {
+  html {
+   font-size: 32px;
+  }
+}
 
-    /*  reduce  */
+/* body padding */
+
+@media screen and (min-width: 768px) {
+  body {
+   padding: 0 1.5rem;
+  }
+}
+
+/* navbar */
+
+  /* if navbar is on smaller, then hide nav-large and show nav-small */
+
+  /* if navbar is on larger, then hide nav-small and show nav-large */
+    /* burger and brand at top */
+    /* When burger is pressed, show a div (conver this into an animation) and change burger into an X*/
+    /* when x is pressed, hide the div (animation) and turn x into burger */
+
+@media screen and (min-width: 768px) {
+  .nav-small {
+    display:none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-large {
+    display:none;
+  }
+  .navlist-small {
+    /* display: none; */
+    display:grid;
+    grid-gap:.6rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .navbar-item {
+    padding: .25rem 0;
+  }
+}

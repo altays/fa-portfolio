@@ -13,7 +13,7 @@ function About() {
                     <div class="picture-shadow"></div>
                     <img id="pictureImage" class="picture-image"
                     src={pic1}
-                    srcset={`${pic1} 1x,${pic2} 2x,${pic3} 3x`}
+                    srcSet={`${pic1} 1x,${pic2} 2x,${pic3} 3x`}
                     alt="Portrait of Alex Taylor"
                     width="320"
                     height="320" />

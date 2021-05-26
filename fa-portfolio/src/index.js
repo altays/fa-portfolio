@@ -5,7 +5,6 @@ import './css/css-reset.css';
 import './css/animations.css';
 import './css/index.css';
 
-// import './js/main.js'
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
