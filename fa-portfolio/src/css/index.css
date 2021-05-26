@@ -63,7 +63,7 @@ a {
 /* 3. specific */
 
 .about {
-  max-width: 26rem;
+  max-width: 40rem;
   display:flex;
   align-items:center;
   flex-direction: column;
