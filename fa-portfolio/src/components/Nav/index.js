@@ -14,21 +14,21 @@ function Nav() {
                     <Link to="/">About</Link>
                 </a>
 
-                <a  href="/music">
-                    <Link to="/music">Music</Link>
+                <a  href="/sound">
+                    <Link to="/sound">Sound</Link>
                 </a>
 
-                {/* <a className="navbar-item" href="/podcast">
-                    <Link to="/podcast">Podcast</Link>
-                </a> */}
+                <a className="navbar-item" href="/">
+                    <Link to="/">French Alexander (replace with logo)</Link>
+                </a>
 
                 <a href="/video">
                     <Link to="/video">Video</Link>
                 </a>
 
-                {/* <a className="navbar-item" href="/programming">
+                <a className="navbar-item" href="/programming">
                     <Link to="/programming">Programming</Link>
-                </a> */}
+                </a>
 
                 {/* <a className="navbar-item" href="store">
                     <Link to="/store">Store</Link>

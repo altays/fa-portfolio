@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Music() {
+function Sound() {
     return (
     <section>
 
@@ -9,4 +9,4 @@ function Music() {
 ;
 }
 
-export default Music;
+export default Sound;

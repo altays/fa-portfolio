@@ -3,7 +3,7 @@ function Footer() {
     return (
 
         <footer class="footer">
-            <div class="">
+            <div class="socials">
                 {/* <a href="mailto:frenchalexander@gmail.com">
                     <span>
                         <i className="fas fa-envelope fa-lg"></i>
@@ -35,7 +35,7 @@ function Footer() {
                     </span>
                 </a>
             </div>
-            <div className="">
+            <div className="return">
                 <p >
                     <a className="return2top" href="#top-of-page">Return to top</a>
                 </p>
