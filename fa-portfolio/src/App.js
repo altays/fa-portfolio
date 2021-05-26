@@ -4,9 +4,6 @@ import {
   Route
 } from "react-router-dom";
 
-// import './App.css'
-import './css/App.css'
-
 import Sound from "./components/pages/Sound";
 import Store from "../src/components/pages/Store";
 import Video from "../src/components/pages/Video";
@@ -15,7 +12,8 @@ import Programming from "../src/components/pages/Programming";
 
 import Nav from "../src/components/Nav/index";
 import Footer from "../src/components/Footer/index";
-import Wallpaper from "../src/components/Wallpaper"
+import Wallpaper from "../src/components/Wallpaper";
+import Wrapper from "../src/components/Wrapper"
 
 export default function App() {
   return (
@@ -24,6 +22,7 @@ export default function App() {
         <Wallpaper />
 
         {/* container start */}
+        <Wrapper>
 
         <Nav />
 
@@ -46,6 +45,8 @@ export default function App() {
         </Switch>
   
         <Footer />
+
+        </Wrapper>
 
           {/* container end */}
     </Router>

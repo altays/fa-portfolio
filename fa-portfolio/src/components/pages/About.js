@@ -7,40 +7,33 @@ import pic3 from './images/alex@3x.jpg';
 function About() {
     return (
     
-        <div class="content">
+        <div class="content" id="top-of-page">
             <aside class="side" >
                 <figure class="picture">
                     <div class="picture-shadow"></div>
                     <img id="pictureImage" class="picture-image"
                     src={pic1}
                     srcset={`${pic1} 1x,${pic2} 2x,${pic3} 3x`}
-                    alt="Portrait of Alex Jefferson"
+                    alt="Portrait of Alex Taylor"
                     width="320"
                     height="320" />
                 </figure>
             </aside>
 
-            <main class="about">
+            <div class="about">
                 <h1 class="name">
-                    Hi, I'm Alex Jefferson
+                    Hi, I'm Alex Taylor
                 </h1>
-                <p class="job">
-                    Tech recruiter
-                </p>
-                <hr class="hr" />
+
                 <div class="description">
-                <p>
-                    I spend my time traveling the world,
-                    helping startups and tech businesses
-                    hire the best people.
-                </p>
-            </div>
-                <div class="contact">
-                    <a class="button" href="mailto:youremail@example.com">
-                        Get in touch
-                    </a>
+                    <p>
+                        I spend my time traveling the world,
+                        helping startups and tech businesses
+                        hire the best people.
+                    </p>
                 </div>
-            </main>
+
+            </div>
         </div>
         
     );

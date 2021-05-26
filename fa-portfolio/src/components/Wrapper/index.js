@@ -1,10 +1,10 @@
-function Wrapper() {
+import React from "react";
 
-    return (
+function Wrapper(props) {
 
-        <div className="wrapper"></div>
+    return <main className="wrapper" {...props} />
 
-    )
+    
 }
 
 export default Wrapper;
