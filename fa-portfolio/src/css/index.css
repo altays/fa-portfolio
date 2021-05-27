@@ -204,6 +204,26 @@ p {
   padding: 0 .5rem;
 }
 
+.video-container {
+  display:flex;
+  align-items:center;
+  padding: 1rem 0rem;
+}
+
+.video-embed {
+  padding: .5rem 0rem;
+}
+
+.video-link {
+  padding: 0rem .5rem;
+}
+
+.video-text {
+  text-align:center;
+  padding: 1rem 0rem
+}
+
+
 .wallpaper {
   background-image:url("../components/pages/images/avi1.png");
   background-position: center;
@@ -299,6 +319,16 @@ p {
   .album {
     padding: 1rem 0rem;
   }
+
+  .video-container {
+    flex-direction: column;
+    padding: 0 7em;
+  }
+
+  .video-embed {
+    flex-direction: column;
+
+  }
 }
 
 @media screen and (min-width: 427px) and (max-width:838px){
@@ -308,14 +338,35 @@ p {
   .album-container {
     padding: 2rem 0rem;
   }
+
+  .video-embed {
+    flex-direction: column;
+
+  }
+
+  .video-container {
+    flex-direction: column;
+  };
 }
 
 @media screen and (min-width: 839px) {
   .album {
-    padding: 2rem .5rem;
+    padding: 2rem .75rem;
   }
   .album-container {
     display:flex;
     padding: 5rem 0rem;
   }
+
+  .video-container {
+    flex-direction: column;
+  };
+
+  .video-embed {
+    flex-direction: column;
+
+  }
 }
+
+/* video page responsiveness */
+
