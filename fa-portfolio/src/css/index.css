@@ -82,18 +82,10 @@ a {
   font-family: 'Open Sans',sans-serif;
 }
 
-
-
-.album-container{
-
-}
-
 .brand {
   font-size:2rem;
   align-self:center;
 }
-
-
 
 .content {
   display:flex;
@@ -223,7 +215,6 @@ p {
   padding: 1rem 0rem
 }
 
-
 .wallpaper {
   background-image:url("../components/pages/images/avi1.png");
   background-position: center;
@@ -239,12 +230,12 @@ p {
   min-height: 100vh;
   align-items:center;
   /* hiding scroll bar */
-  overflow-y: scroll;
+  overflow: hidden;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
-.wrapper::-webkit-scrollbar {/* WebKit */
+body::-webkit-scrollbar {/* WebKit */
   width: 0;
   height: 0;
 }
