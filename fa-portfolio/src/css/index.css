@@ -301,7 +301,7 @@ p {
   }
 }
 
-@media screen and (min-width: 427px) and (max-width:769px){
+@media screen and (min-width: 427px) and (max-width:838px){
   .album {
     padding: 2rem 0rem;
   }
@@ -310,9 +310,9 @@ p {
   }
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 839px) {
   .album {
-    padding: 2rem 2rem;
+    padding: 2rem .5rem;
   }
   .album-container {
     display:flex;
