@@ -4,7 +4,7 @@ html {
   background-color: #8f8ac7;
   background-image: linear-gradient(to top right, #a09dc5, #267051); 
   color: #fff;
-  font-family: "Quicksand", "Montserrat", sans-serif;
+  font-family: "Lato", "Roboto", sans-serif;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -23,12 +23,20 @@ a {
 
 /* 2. Shared */
 
+a:active, .return:active {
+  transform: scale(0.98) translateY(-1px);
+}
 
+a:hover, .return:hover {
+  transform: scale(1.2) translateY(-2px);
+  color:rgba(170, 255, 182, 0.932);
+}
 
 .button,
 .social a {
   transform-origin: center;
   transition-duration: 100ms;
+  
 }
 
 .job,
@@ -40,6 +48,7 @@ a {
 
 .navbar, .footer {
   position: relative;
+  
 }
 
 .wallpaper {
@@ -69,19 +78,22 @@ a {
   flex-direction: column;
 }
 
+a {
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+
+.album-container{
+
+}
+
 .brand {
   font-size:2rem;
   align-self:center;
 }
 
-a:active, .return:active {
-  transform: scale(0.98) translateY(-1px);
-}
 
-a:hover, .return:hover {
-  transform: scale(1.2) translateY(-2px);
-  color:rgba(170, 255, 182, 0.932);
-}
 
 .content {
   display:flex;
@@ -150,6 +162,11 @@ a:hover, .return:hover {
   display:grid;
   grid-template-columns: repeat(5,1fr) ;
   grid-gap:2rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.5rem;
 }
 
 .picture {
@@ -273,5 +290,32 @@ a:hover, .return:hover {
 
   .navbar-item {
     padding: .25rem 0;
+  }
+}
+
+/* album responsiveness  */
+
+@media screen and (max-width: 426px) {
+  .album {
+    padding: 1rem 0rem;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width:769px){
+  .album {
+    padding: 2rem 0rem;
+  }
+  .album-container {
+    padding: 2rem 0rem;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .album {
+    padding: 2rem 2rem;
+  }
+  .album-container {
+    display:flex;
+    padding: 5rem 0rem;
   }
 }
