@@ -27,7 +27,7 @@ function About() {
 
                 <div className="description">
                     <p className="descPara">
-                        French Alexander is a Baltimore based electronic composer and performer who creates densly layered audiovisual landscapes. He was initially fascinated with using pedals to extend the sound of a guitar and continues this fascination with circuitbending, modular synths, and tape. 
+                        French Alexander is a Baltimore based electronic composer and performer who creates densly layered audiovisual landscapes. He was initially fascinated with using pedals to extend the sound of a guitar and continues this fascination with circuitbending, modular synths, and tape. He is also a cohost of the podcast <a href="https://podcasts.apple.com/us/podcast/feels-and-variations/id1501295351">Feels and Variations</a>.
                     </p>
                     <p className="descPara">
                         Comments on his recent improvisation for the Scavengers Network Indie Podcast Festival, which can be found on his YouTube channel, include: 
