@@ -74,12 +74,13 @@ a {
   align-self:center;
 }
 
-a:active, i:active, .return:active {
+a:active, .return:active {
   transform: scale(0.98) translateY(-1px);
 }
 
-a:hover, i:hover, .return:hover {
-  transform: scale(1.02) translateY(-2px);
+a:hover, .return:hover {
+  transform: scale(1.2) translateY(-2px);
+  color:rgba(170, 255, 182, 0.932);
 }
 
 .content {
