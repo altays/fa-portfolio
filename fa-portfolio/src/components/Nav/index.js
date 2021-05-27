@@ -24,9 +24,9 @@ function Nav() {
                         <Link to="/sound">Sound</Link>
                     </a>
 
-                    <a className="navbar-item" href="/">
-                        <Link to="/">French Alexander</Link>
-                    </a>
+                    <p className="nav-large-brand">
+                        French Alexander
+                    </p>
 
                     <a className="navbar-item " href="/video">
                         <Link to="/video">Video</Link>
@@ -56,9 +56,9 @@ function Nav() {
                 <div className="nav-small-brand">
                     {/* after clicking, change nav-list to display and animate downward */}
 
-                    <a className="brand" href="/">
-                        <Link to="/">French Alexander</Link>
-                    </a>
+                    <p>
+                        French Alexander
+                    </p>
                 </div>
                 
                 <div className = "navlist-small">

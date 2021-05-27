@@ -39,16 +39,15 @@ a:hover, .return:hover {
   
 }
 
-.job,
-.button {
-  font-family: "Montserrat", "Quicksand", sans-serif;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-}
-
 .navbar, .footer {
   position: relative;
   
+}
+
+.nav-large-brand, .nav-small-brand {
+  font-family: "Open Sans", sans-serif;
+  font-size:1.7rem;
+  text-align: center;
 }
 
 .wallpaper {
@@ -141,6 +140,7 @@ a {
 .nav-small-brand {
   display: flex;
   flex-flow:column;
+
 }
 
 .navbar-item {
@@ -156,7 +156,7 @@ a {
   grid-gap:2rem;
 }
 
-p {
+.video-text, .descPara {
   font-family: 'Roboto', sans-serif;
   font-size:1.5rem;
 }
@@ -337,6 +337,10 @@ body::-webkit-scrollbar {/* WebKit */
 
   .video-container {
     flex-direction: column;
+    text-align:center;
+    align-items:center;
+    padding: 0em 14em;
+    
   };
 }
 
