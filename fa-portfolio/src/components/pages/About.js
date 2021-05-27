@@ -30,7 +30,7 @@ function About() {
                         French Alexander is a Baltimore based electronic composer and performer who creates densly layered audiovisual landscapes. He was initially fascinated with using pedals to extend the sound of a guitar and continues this fascination with circuitbending, modular synths, and tape. 
                     </p>
                     <p className="descPara">
-                        Comments on his recent improvisation for the Scavengers Network Indie Podcast, which can be found on his YouTube channel, include: 
+                        Comments on his recent improvisation for the Scavengers Network Indie Podcast Festival, which can be found on his YouTube channel, include: 
                     </p>
                     <ul> 
                         <li className="descList">
