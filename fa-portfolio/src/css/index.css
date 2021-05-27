@@ -95,6 +95,10 @@ a:hover, i:hover, .return:hover {
   font-size: 1.5rem;
 }
 
+.descPara,.descList {
+  padding: 1rem 0rem;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -144,7 +148,7 @@ a:hover, i:hover, .return:hover {
 .navlist-large {
   display:grid;
   grid-template-columns: repeat(5,1fr) ;
-  grid-gap:3rem;
+  grid-gap:2rem;
 }
 
 .picture {
@@ -154,10 +158,10 @@ a:hover, i:hover, .return:hover {
 }
 
 .picture-shadow {
-  border-radius: 10px;
-  background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 70%);
+  border-radius: 28px;
+  background-image: radial-gradient(#000 0%, rgba(0, 0, 0, 0) 88%);
   position: absolute;
-  top: 10%;
+  top: 1%;
 }
 
 .picture-image {
@@ -242,7 +246,7 @@ a:hover, i:hover, .return:hover {
 
 @media screen and (min-width: 768px) {
   body {
-   padding: 0 1.5rem;
+   padding: 0 0.5rem;
   }
 }
 

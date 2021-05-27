@@ -25,7 +25,7 @@ function Nav() {
                     </a>
 
                     <a className="navbar-item" href="/">
-                        <Link to="/">Brand</Link>
+                        <Link to="/">French Alexander</Link>
                     </a>
 
                     <a className="navbar-item " href="/video">
@@ -57,7 +57,7 @@ function Nav() {
                     {/* after clicking, change nav-list to display and animate downward */}
 
                     <a className="brand" href="/">
-                        <Link to="/">Brand</Link>
+                        <Link to="/">French Alexander</Link>
                     </a>
                 </div>
                 

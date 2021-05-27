@@ -26,9 +26,23 @@ function About() {
                 </h1> */}
 
                 <div className="description">
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisl sem, tempus non dolor ut, egestas venenatis velit. Integer pellentesque mauris maximus, dapibus sem ut, eleifend mauris. Aliquam suscipit ipsum sed augue vulputate, quis sollicitudin enim placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur nibh tortor, faucibus a enim fermentum, tempor porttitor leo. Donec id ipsum efficitur, feugiat augue id, tristique quam. Aenean pretium urna sit amet quam scelerisque commodo. Maecenas tincidunt ex nisl, in convallis felis fringilla vitae. 
+                    <p className="descPara">
+                        French Alexander is a Baltimore based electronic composer and performer who creates densly layered audiovisual landscapes. He was initially fascinated with using pedals to extend the sound of a guitar and continues this fascination with circuitbending, modular synths, and tape. 
                     </p>
+                    <p className="descPara">
+                        Comments on his recent improvisation for the Scavengers Network Indie Podcast, which can be found on his YouTube channel, include: 
+                    </p>
+                    <ul> 
+                        <li className="descList">
+                            "… music that can make you feel like you’ve been ripped out of the ocean and then immediately gently placed into the top of a tree that’s swaying lightly in the breeze." 
+                        </li>
+                        <li className="descList">
+                            "It exists in a weird space between calm and tension that's really difficult to nail down."
+                        </li>
+                        <li className="descList">
+                            "YOURE USING THE CONVERSATION WE JUST HAD?" 
+                        </li>
+                    </ul>
                 </div>
 
             </div>
