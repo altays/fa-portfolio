@@ -4,32 +4,31 @@ import {
   Route
 } from "react-router-dom";
 
-import './App.css'
-
-import Music from "../src/components/pages/Music";
-import Podcast from "../src/components/pages/Podcast";
+import Sound from "./components/pages/Sound";
 import Store from "../src/components/pages/Store";
 import Video from "../src/components/pages/Video";
 import About from "../src/components/pages/About";
-import Programming from "../src/components/pages/Video";
+import Programming from "../src/components/pages/Programming";
 
 import Nav from "../src/components/Nav/index";
 import Footer from "../src/components/Footer/index";
-
+import Wallpaper from "../src/components/Wallpaper";
+import Wrapper from "../src/components/Wrapper"
 
 export default function App() {
   return (
     <Router>
+
+        <Wallpaper />
+
+        {/* container start */}
+        <Wrapper>
+
         <Nav />
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/music">
-            <Music />
-          </Route>
-          <Route path="/podcast">
-            <Podcast />
+          <Route path="/sound">
+            <Sound />
           </Route>
           <Route path="/store">
             <Store />
@@ -46,6 +45,10 @@ export default function App() {
         </Switch>
   
         <Footer />
+
+        </Wrapper>
+
+          {/* container end */}
     </Router>
   );
 }
