@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -17,7 +17,7 @@ import Wrapper from "../src/components/Wrapper"
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/">
 
         <Wallpaper />
 
@@ -27,21 +27,16 @@ export default function App() {
         <Nav />
 
         <Switch>
-          <Route path="/sound">
-            <Sound />
-          </Route>
-          <Route path="/store">
-            <Store />
-          </Route>
-          <Route path="/video">
-            <Video />
-          </Route>
-          <Route path="/programming">
-            <Programming />
-          </Route>
-          <Route path="/">
+          <Route exact path="/">
             <About />
           </Route>
+          <Route exact path="/sound">
+            <Sound />
+          </Route>
+          <Route exact path="/video">
+            <Video />
+          </Route>
+
         </Switch>
   
         <Footer />
