@@ -9,9 +9,9 @@ function Video() {
             </p>
 
             <div className="video-embed">
-                <a href="#" className="video-link"><iframe width="280" height="280" src="https://www.youtube.com/embed/cvM9JekNgNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></a>
-                <a href="#" className="video-link"><iframe width="280" height="280" src="https://www.youtube.com/embed/nvAzH0ac2_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></a>
-                <a href="#" className="video-link"><iframe width="280" height="280" src="https://www.youtube.com/embed/aft0OaOdGjA?start=1469" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></a>
+                <a href="#" className="video-link"><iframe width="290" height="280" src="https://www.youtube.com/embed/cvM9JekNgNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></a>
+                <a href="#" className="video-link"><iframe width="290" height="280" src="https://www.youtube.com/embed/nvAzH0ac2_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></a>
+                <a href="#" className="video-link"><iframe width="290" height="280" src="https://www.youtube.com/embed/aft0OaOdGjA?start=1469" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe></a>
             </div>
 
             <p className = "video-text">
