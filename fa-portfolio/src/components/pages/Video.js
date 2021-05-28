@@ -17,9 +17,6 @@ function Video() {
             <p className = "video-text">
                 Check out videos like this and more on <a href="https://www.youtube.com/channel/UCKMdpQ2L60I-6koan9PV74w/videos">YouTube</a>.
             </p>
-
-            
-
         </section>
 
         
