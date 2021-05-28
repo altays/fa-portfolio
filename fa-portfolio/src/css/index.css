@@ -200,6 +200,7 @@ a {
   display:flex;
   align-items:center;
   padding: 1rem 0rem;
+  flex-direction:column-reverse;
 }
 
 .video-embed {
@@ -351,6 +352,7 @@ body::-webkit-scrollbar {/* WebKit */
   .album-container {
     display:flex;
     padding: 5rem 0rem;
+    text-align:center;
   }
 
   .video-container {
