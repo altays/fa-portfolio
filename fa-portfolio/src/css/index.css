@@ -200,7 +200,7 @@ a {
   display:flex;
   align-items:center;
   padding: 1rem 0rem;
-  flex-direction:column-reverse;
+  flex-direction:column;
 }
 
 .video-embed {
